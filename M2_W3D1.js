@@ -117,7 +117,19 @@ console.log(giveMeRandom(20));
  Scrivi una funzione chiamata "area" che riceve due parametri (l1, l2) e calcola l'area del rettangolo associato.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+console.log();
+console.log("------ESERCIZIO EXTRA 1------");
+console.log();
+
+const areaRettangolo = function (l1, l2) {
+  return l1 * l2;
+};
+
+console.log(
+  "L'area del rettagolo con base 21cm e altezza 15cm è: " +
+    areaRettangolo(21, 15) +
+    "cm²"
+);
 
 /* ESERCIZIO 2
  Scrivi una funzione chiamata "crazyDiff" che calcola la differenza assoluta tra un numero fornito e 19.
